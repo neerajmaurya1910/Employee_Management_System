@@ -6,6 +6,12 @@ public class LeaveRequest {
 
         Scanner sc = new Scanner(System.in);
 
+
+        
+        System.out.println("Leave Request");
+
+
+
         System.out.print("Employee ID: ");
         int id = sc.nextInt();
         sc.nextLine();
