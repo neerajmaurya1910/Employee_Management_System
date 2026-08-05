@@ -1,5 +1,4 @@
-import java.util.Scanner;
-
+public import java.util.Scanner;
 
 public class AttendanceModule {
 
@@ -23,4 +22,6 @@ public class AttendanceModule {
 
         sc.close();
     }
+} {
+    
 }
