@@ -5,7 +5,11 @@ public class DarkModeModule {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
+        
+        System.out.println("===== Theme Settings =====");
+        System.out.println("===== Theme Settings =====");
+        System.out.println("===== Theme Settings =====");
+        System.out.println("===== Theme Settings =====");
         System.out.println("===== Theme Settings =====");
         System.out.println("1. Light Mode");
         System.out.println("2. Dark Mode");

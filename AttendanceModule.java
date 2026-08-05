@@ -6,9 +6,7 @@ public class AttendanceModule {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Employee ID: ");
-        System.out.print("Enter Employee ID: ");
-        System.out.print("Enter Employee ID: ");
-        System.out.print("Enter Employee ID: ");
+        
         int id = sc.nextInt();
 
         System.out.print("Present (P) or Absent (A): ");
