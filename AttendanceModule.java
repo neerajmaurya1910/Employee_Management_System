@@ -5,7 +5,9 @@ public class AttendanceModule {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
+        System.out.print("Enter Employee ID: ");
+        System.out.print("Enter Employee ID: ");
+        System.out.print("Enter Employee ID: ");
         System.out.print("Enter Employee ID: ");
         int id = sc.nextInt();
 
