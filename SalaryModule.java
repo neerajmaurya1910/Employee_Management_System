@@ -16,6 +16,12 @@ public class SalaryModule {
         System.out.println("HRA = " + hra);
         System.out.println("DA = " + da);
         System.out.println("Total Salary = " + total);
+        System.out.println("Total Salary = " + total);
+        System.out.println("Total Salary = " + total);
+        System.out.println("Total Salary = " + total);
+        System.out.println("Total Salary = " + total);
+        System.out.println("Total Salary = " + total);
+        
 
         sc.close();
     }
