@@ -27,5 +27,14 @@ public class SearchEmployee {
             System.out.println("Employee Not Found");
         }
         sc.close();
+
+        //create pr
+        if(id == storedID){
+            System.out.println("Employee Found");
+            System.out.println("Name: " + storedName);
+        } else{
+            System.out.println("Employee Not Found");
+        }
+        sc.close();
     }
 }
