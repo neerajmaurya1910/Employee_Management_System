@@ -7,6 +7,7 @@ public class DeleteEmployee {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter Employee ID to Delete: ");
+        System.out.print("Enter Employee ID to Delete: ");
         int id = sc.nextInt();
 
         System.out.println("Employee " + id + " deleted successfully.");
