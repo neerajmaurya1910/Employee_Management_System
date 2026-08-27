@@ -22,6 +22,4 @@ public class AttendanceModule {
 
         sc.close();
     }
-} {
-    
-}
+} 

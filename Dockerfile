@@ -1,9 +1,9 @@
-FROM python:3.10-slim
+FROM eclipse-temurin:17-jdk
 
 WORKDIR /app
 
 COPY . .
 
-RUN if [ -f requirements.txt ]; then pip install --no-cache-dir -r requirements.txt; fi
+RUN javac *.java
 
-CMD ["python", "main.py"]
+CMD ["java", "LoginModule"]
