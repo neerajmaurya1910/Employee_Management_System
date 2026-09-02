@@ -3,21 +3,15 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/neerajmaurya1910/Employee_Management_System.git'
-            }
-        }
-
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t myproject .'
+                sh 'docker build -t my-project .'
             }
         }
 
         stage('Run Docker Container') {
             steps {
-                sh 'docker run --rm myproject'
+                sh 'docker run --rm my-project'
             }
         }
     }
@@ -26,6 +20,7 @@ pipeline {
         success {
             echo 'Pipeline completed successfully!'
         }
+
         failure {
             echo 'Pipeline failed!'
         }
