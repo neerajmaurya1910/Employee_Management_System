@@ -11,7 +11,7 @@ pipeline {
 
         stage('Run Docker Container') {
             steps {
-                sh 'docker run --rm my-project'
+                sh 'echo -e "admin\\nadmin" | docker run --rm -i my-project'
             }
         }
     }
